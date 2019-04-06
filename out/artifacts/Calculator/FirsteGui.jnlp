@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FirsteGui.jnlp">
+  <information>
+    <title>Calculator</title>
+    <vendor>Unknown</vendor>
+    <description>Calculator</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FirsteGui.jar" size="8758" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="288" height="412" main-class="sample.Main"  name="Calculator" />
+  <update check="background"/>
+</jnlp>

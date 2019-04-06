@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Calculator">
+    <output-path>$PROJECT_DIR$/out/artifacts/Calculator</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="height" value="412" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/icons/415GJFQnoPL.png" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/icons/Без названия.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="deb" />
+        <option name="title" value="Calculator" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="288" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="FirsteGui.jar">
+        <element id="module-output" name="FirsteGui" />
+      </element>
+    </root>
+  </artifact>
+</component>
