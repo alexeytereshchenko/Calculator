@@ -21,7 +21,7 @@
       </options>
     </properties>
     <root id="root">
-      <element id="archive" name="FirsteGui.jar">
+      <element id="archive" name="Calculator.jar">
         <element id="module-output" name="FirsteGui" />
       </element>
     </root>

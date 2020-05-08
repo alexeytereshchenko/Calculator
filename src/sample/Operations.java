@@ -37,10 +37,7 @@ public class Operations {
                  result = a / b;
             if (result == 0) result = 0;
             return result;
-//            default:
-//                return "Unknown operations!!! ";
         }
-//            return result;
         return 0;
         }
 }

@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.event.ActionEvent;
-import javafx.scene.text.Font;
 
 public class Controller {
 
@@ -33,14 +32,7 @@ public class Controller {
 
     @FXML
     public void plusOrMin(ActionEvent event){
-//        label1.setText("-" + label1.getText());
         String a = label1.getText();
-//
-//        if (a.equals("")){ a = " "; }
-
-
-
-
 
         switch (a.charAt(0)){
             case '-':
@@ -55,8 +47,6 @@ public class Controller {
                 label1.setText(label1.getText());
                 break;
             default:
-//                String h = label1.getText();
-//                String u = h.replace(' ', '-');
                 label1.setText(label1.getText());
                 break;
         }
@@ -139,18 +129,6 @@ public class Controller {
                     label2.setText(label2.getText() + number1 + operation);
                     label1.setText("");
                 }
-            } else {
-//                number1 = Double.parseDouble(label1.getText());
-//                operation = "+";
-//                label2.setText(label2.getText() + number1 + operation);
-//                label1.setText("");
-//                String num2 = label2.getText();
-//                System.out.println("do " + num2);
-//                String test = num2.replace('+', ' ');
-//                System.out.println("posle " + num2);
-//                number2 = Double.parseDouble(test);
-//                Operations op = new Operations();
-//                System.out.println(op.operationsDouble(number2, number1, operation));
             }
     }
 
@@ -169,10 +147,6 @@ public class Controller {
                 label2.setText(label2.getText() + number1 + operation);
                 label1.setText("");
             }
-//            if (number1 % 1 == 0) {
-//                label2.setText((long)(number1) + operation);
-//                label1.setText("");
-//            }
 
         }
     }
@@ -212,11 +186,6 @@ public class Controller {
     }
     @FXML
     public void zeroClick(ActionEvent event) {
-
-        // size font
-//        if(label1.getText().length() == 6){
-//            label1.setFont(new Font(10));
-//        }
 
         switch (label1.getText()){
             case "0":
